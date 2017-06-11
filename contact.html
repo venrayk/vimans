@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body-bg">
+
+<header>
+	<nav class="content">
+		<div class="logo">
+			<img src="imgs/logo.png" alt="logo">
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="about.html">关于我们</a></li>
+				<li><a href="/">系列产品</a></li>
+				<li><a href="http://www.taobao.com" target="_blank">线上店铺</a></li>
+				<li><a href="/">相关荣誉</a></li>
+				<li><a class="cur" href="contact.html">联系我们</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="line"></div>
+</header>
+
+<div class="content">
+
+	<div class="company-info-title">
+		<h1>联系<span>我们</span> <em>CONTACT US</em></h1>
+	</div>
+
+	<div class="map">
+
+		<!-- 地图容器 -->
+		<div id="allmap"></div>
+
+		<!-- 公司地图信息 -->
+		<div class="company-info" id="companyInfo">
+			<div class="company-info-content">	
+					
+
+				<div class="company-info-title">
+					<h1><span>联系方式</span> <em>CONTACT US</em></h1>
+				</div>						
+				<p class="text-en" style="margin-top: 5px; font-size: 10px;">V I M A N S </p>
+
+
+				<p class="text-tel">028-83297828/ 61932437/ 61932427(6线)</p>
+
+				<p class="text-en">传真</p>
+				<p class="text-cn">028-6193 2647转601分机</p>
+
+				<p class="text-en">公司地址</p>
+				<p class="text-cn">成都市温江区光华大道三段天来国际中心27楼 2705室</p>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+<footer>
+	<div class="line"></div>
+	<p class="copyright">唯曼丝袜业隶属于成都唯曼丝服饰有限责任公司 copyright ©版权所有</p>
+	<p class="copyright"><a href="" target="_blank">京公网安备11000002000001号</a></p>
+</footer>
+
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=EAe426e195be054820bdbfcb9bd9648c"></script>
+	<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");
+	var point = new BMap.Point(103.87854,30.685695);
+	var marker = new BMap.Marker(point);  // 创建标注
+	// map.addOverlay(marker);              // 将标注添加到地图中
+	map.centerAndZoom(point, 15);
+
+	//创建小狐狸
+	var pt = new BMap.Point(103.87854,30.685695);
+	var myIcon = new BMap.Icon("http://www.easyicon.net/api/resizeApi.php?id=1113923&size=48", new BMap.Size(50,100));
+
+	var marker2 = new BMap.Marker(pt,{icon:myIcon});  // 创建标注
+
+	map.addOverlay(marker2);              // 将标注添加到地图中
+	marker2.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+	
+	var showCompanyInfo=function() {
+		document.getElementById('companyInfo').style.display='block' ;
+	}
+
+	var hideCompanyInfo=function() {
+		document.getElementById('companyInfo').style.display='none' ;
+	}
+
+	// marker2.addEventListener("mouseover", showCompanyInfo);
+	// marker2.addEventListener("click", showCompanyInfo);
+	// marker2.addEventListener("mouseout", hideCompanyInfo);
+</script>
+</body>
+</html>
+
+
