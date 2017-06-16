@@ -1,76 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95809fa6-b8b1-424d-83c2-f25fcc04a2b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/中筒简约款/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/中筒简约款/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/中筒简约款/IMG_1584.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/中筒简约款/IMG_1808.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/中筒简约款/IMG_1814.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/中筒简约款/IMG_2074.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/中筒简约款/IMG_2089.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/中筒简约款/IMG_2097.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/包芯丝/2-43 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/包芯丝/2-45 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/包芯丝/2-51 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/包芯丝/3-11 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/包芯丝/IMG_1687.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/包芯丝/IMG_1695.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/包芯丝/IMG_1987.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/压力裤/3-38 下午12月 12 2016 2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/压力裤/3-41 下午12月 12 2016_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/压力裤/3-45 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/压力裤/3-49 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/压力裤/IMG_1755.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/压力裤/IMG_1765.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/天鹅绒/2-57 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/天鹅绒/3-04 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/天鹅绒/4-03 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/天鹅绒/4-05 下午12月 12 2016.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/天鹅绒/IMG_1699.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/天鹅绒/IMG_1708.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/天鹅绒/IMG_2015.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒侧菱款/4P1A0714.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒侧菱款/4P1A0719.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒侧菱款/4P1A0727.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒侧菱款/4P1A0807.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒侧菱款/4P1A0825.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒侧菱款/4P1A0913.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒侧菱款/4P1A0927(1).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒后菱/4P1A0714.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒后菱/4P1A0719.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒后菱/4P1A0727.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒后菱/4P1A0733改.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒后菱/4P1A0759改.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒后菱/4P1A0909.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒后菱/4P1A0929(1).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒方格款/4P1A0704.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒方格款/4P1A0768.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒方格款/4P1A0786gai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒方格款/4P1A0873.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒方格款/4P1A0912.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒方格款/4P1A0924(1).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/4P1A0710.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/4P1A0840.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/4P1A0850.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/4P1A0868.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/4P1A0923.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/IMG_1609.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/IMG_1625.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/IMG_2100.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/短筒运动款/IMG_2112.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/船袜/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/船袜/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/船袜/IMG_1584.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/船袜/IMG_1793.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/船袜/IMG_1796.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/船袜/IMG_2125.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/船袜/IMG_2130.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/包芯丝/debug.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/products.html" />
+    <list default="true" id="95809fa6-b8b1-424d-83c2-f25fcc04a2b3" name="Default" comment="add imgs">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -138,8 +70,8 @@
       <file leaf-file-name="products.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="108">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -150,8 +82,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>company-info-title</find>
-      <find>http://www.jq22.com/demo/jQueryHover201706082104/img/1.png</find>
       <find>figcaption</find>
+      <find>http://www.jq22.com/demo/jQueryHover201706082104/img/1.png</find>
     </findStrings>
     <replaceStrings>
       <replace>imgs/中筒简约款/IMG_1584.JPG</replace>
@@ -178,10 +110,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="-62" />
+    <option name="y" value="36" />
+    <option name="width" value="1364" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -314,18 +246,26 @@
       <option name="presentableId" value="Default" />
       <updated>1497188880547</updated>
       <workItem from="1497188882648" duration="7500000" />
-      <workItem from="1497271136468" duration="9067000" />
+      <workItem from="1497271136468" duration="9902000" />
     </task>
+    <task id="LOCAL-00001" summary="add imgs">
+      <created>1497280863956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497280863956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16567000" />
+    <option name="totallyTimeSpent" value="17402000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-62" y="36" width="1364" height="736" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16596195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23787878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,7 +290,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="add imgs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add imgs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -468,10 +409,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/文学网-微信小程序.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="108">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
