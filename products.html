@@ -1,111 +1,366 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>系列产品</title>
-	<link href="css/style.css" rel="stylesheet">
-	<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>系列产品</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 </head>
 <body class="body-bg">
 <header>
-	<!--http://www.17sucai.com/pins/25009.html-->
 
-	<!--http://www.jq22.com/yanshi2966-->
-<nav class="content">
-	<div class="logo">
-		<img src="imgs/logo.png" alt="logo">
-	</div>
-	<div class="nav">
-		<ul>
-			<li><a href="index.html">首页</a></li>
-			<li><a href="about.html">关于我们</a></li>
-			<li><a class="cur"  href="products.html">系列产品</a></li>
-			<li><a href="http://www.taobao.com" target="_blank">线上店铺</a></li>
-			<li><a href="honor.html">相关荣誉</a></li>
-			<li><a href="contact.html">联系我们</a></li>
-		</ul>
-	</div>
-</nav>
-<div class="line"></div>
+    <nav class="content">
+        <div class="logo">
+            <img src="imgs/logo.png" alt="logo">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a class="cur" href="products.html">系列产品</a></li>
+                <li><a href="http://www.taobao.com" target="_blank">线上店铺</a></li>
+                <li><a href="honor.html">相关荣誉</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="line"></div>
 </header>
+
+
+<style type="text/css">
+
+    .product-list2{
+        width: auto;
+        height: auto;
+        min-height: 720px;
+        overflow: auto;
+        margin-top: 20px;
+    }
+
+    .viwe {
+        width: 270px;
+        height: 180px;
+        float: left;
+        margin: 15px;
+        background: #eeeeee;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .viwe img {
+        max-width:260px;
+        overflow: hidden;
+        margin: 5px;
+    }
+
+    .hover {
+
+        width: 100%;
+
+        height: 0px;
+
+        background-color: rgba(0, 0, 0, 0.5);
+
+        position: absolute;
+
+        overflow: hidden;
+
+        top: 30px;
+
+        left: 0;
+
+        transform: rotate(55deg);
+
+        transition: all 0.2s;
+
+        z-index: 999;
+
+    }
+
+    .viwe:hover .hover {
+        height: 140px;
+        transform: rotate(0deg);
+    }
+
+    .viwe:before {
+
+        content: "";
+
+        position: absolute;
+
+        top: -240px;
+
+        right: 0;
+
+        width: 361px;
+
+        height: 361px;
+
+        background: rgba(119, 0, 36, 0.6);
+
+        transform: rotate(55deg) translateX(40px);
+
+        transform-origin: 100% 0%; /*定转换的位置*/
+
+        transition: all 200ms ease 0.4s;
+
+    }
+
+    .viwe:hover:before {
+        top: 0;
+    }
+
+    .viwe:after {
+
+        content: "";
+
+        position: absolute;
+
+        bottom: -240px;
+
+        left: 0;
+
+        width: 361px;
+
+        height: 361px;
+
+        background: rgba(119, 0, 36, 0.6);
+
+        transform: rotate(55deg) translateX(-40px);
+
+        transform-origin: 0% 100%; /*定转换的位置*/
+
+        transition: all 200ms ease 0.4s;
+
+    }
+
+    .viwe:hover:after {
+        bottom: 0;
+    }
+
+    .viwe h2 {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 15px;
+
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+        color: #fff;
+    }
+
+    .viwe  p {
+        color: #fff
+    }
+
+    .pager{
+        /*border: red solid 1px;*/
+        height: 40px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+
+</style>
 
 <div class="content">
 
-	<div class="company-info-title">
-		<h1>系列<span>产品</span> <em>products</em></h1>
-	</div>
+    <div class="company-info-title">
+        <h1>系列<span>产品</span> <em>products</em></h1>
+    </div>
 
-	<div class="product-list">
-		<div class="btn-prev" title="上一页"></div>
-		<ul>
+    <div class="product-list2">
+
+        <ul class="main gallery">
+
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/1.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/1.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/2.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/2.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/3.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/3.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/4.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/4.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/5.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/5.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/6.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/6.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/7.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/7.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/8.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/8.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/3.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/3.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/4.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/4.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/5.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/5.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+            <li class="viwe">
+                <a href="http://www.jq22.com/demo/roate-150703145125/img/6.jpg">
+                    <img src="http://www.jq22.com/demo/roate-150703145125/img/6.jpg">
+                    <div class="hover">
+                        <h2>css3旋转效果</h2>
+                        <p>css3旋转效果css3旋转效果css3旋转效果css3旋转效果css3旋转效果</p>
+                    </div>
+                </a>
+            </li>
+
+        </ul>
+
+        <div  class="pager"></div>
 
 
-			<li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast" data-animate-effect="fadeIn">
-				<a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt="" class="img-responsive">
-					<h3>短筒侧菱款</h3>
-					<span>主要是大家不甚了解的沿线站点</span>
-				</a>
-			</li>
+        <div class="btn-prev" title="上一页"></div>
+        <ul style="display: none;">
+            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
+                data-animate-effect="fadeIn">
+                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
+                                 class="img-responsive">
+                    <h3>短筒侧菱款</h3>
+                    <span>主要是大家不甚了解的沿线站点</span>
+                </a>
+            </li>
 
-			<li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast" data-animate-effect="fadeIn">
-				<a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt="" class="img-responsive">
-					<h3>短筒侧菱款</h3>
-					<span>主要是大家不甚了解的沿线站点</span>
-				</a>
-			</li>
+            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
+                data-animate-effect="fadeIn">
+                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
+                                 class="img-responsive">
+                    <h3>短筒侧菱款</h3>
+                    <span>主要是大家不甚了解的沿线站点</span>
+                </a>
+            </li>
 
-			<li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast" data-animate-effect="fadeIn">
-				<a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt="" class="img-responsive">
-					<h3>短筒侧菱款</h3>
-					<span>主要是大家不甚了解的沿线站点</span>
-				</a>
-			</li>
+            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
+                data-animate-effect="fadeIn">
+                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
+                                 class="img-responsive">
+                    <h3>短筒侧菱款</h3>
+                    <span>主要是大家不甚了解的沿线站点</span>
+                </a>
+            </li>
 
-			<li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast" data-animate-effect="fadeIn">
-				<a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt="" class="img-responsive">
-					<h3>短筒侧菱款</h3>
-					<span>主要是大家不甚了解的沿线站点</span>
-				</a>
-			</li>
+            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
+                data-animate-effect="fadeIn">
+                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
+                                 class="img-responsive">
+                    <h3>短筒侧菱款</h3>
+                    <span>主要是大家不甚了解的沿线站点</span>
+                </a>
+            </li>
 
-			<li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast" data-animate-effect="fadeIn">
-				<a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt="" class="img-responsive">
-					<h3>短筒侧菱款</h3>
-					<span>主要是大家不甚了解的沿线站点</span>
-				</a>
-			</li>
+            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
+                data-animate-effect="fadeIn">
+                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
+                                 class="img-responsive">
+                    <h3>短筒侧菱款</h3>
+                    <span>主要是大家不甚了解的沿线站点</span>
+                </a>
+            </li>
 
-			<li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast" data-animate-effect="fadeIn">
-				<a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt="" class="img-responsive">
-					<h3>短筒侧菱款</h3>
-					<span>主要是大家不甚了解的沿线站点</span>
-				</a>
-			</li>
+            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
+                data-animate-effect="fadeIn">
+                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
+                                 class="img-responsive">
+                    <h3>短筒侧菱款</h3>
+                    <span>主要是大家不甚了解的沿线站点</span>
+                </a>
+            </li>
 
-		</ul>
-		<div class="btn-next" title="下一页"></div>
-	</div>
+        </ul>
+        <div class="btn-next" title="下一页"></div>
+    </div>
 
 </div>
 
 <footer>
-	<div class="line"></div>
-	<p class="copyright">唯曼丝袜业隶属于成都唯曼丝服饰有限责任公司 copyright ©版权所有</p>
-	<p class="copyright"><a href="" target="_blank">京公网安备11000002000001号</a></p>
+    <div class="line"></div>
+    <p class="copyright">唯曼丝袜业隶属于成都唯曼丝服饰有限责任公司 copyright ©版权所有</p>
+    <p class="copyright"><a href="" target="_blank">京公网安备11000002000001号</a></p>
 </footer>
 
-<script id="jqbb" src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 
-<script>
-	/* Demo purposes only */
-    $(".hover").mouseleave(
-        function () {
-            $(this).removeClass("hover");
-        }
-    );
-
-</script>
-
+<link href="css/zoom.css" rel="stylesheet" type="text/css">
+<script src="js/zoom.min.js" type="text/javascript"></script>
 
 </body>
 </html>

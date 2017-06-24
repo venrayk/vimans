@@ -4,12 +4,14 @@
 	<meta charset="utf-8">
 	<title>相关荣誉</title>
 	<link href="css/style.css" rel="stylesheet">
+    <script id="jqbb" src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 </head>
 <body class="body-bg">
 <header>
-	http://www.17sucai.com/pins/25009.html
+<!-- 	http://www.17sucai.com/pins/25009.html
 
-	http://www.jq22.com/yanshi2966
+	http://www.jq22.com/yanshi2966 -->
 <nav class="content">
 	<div class="logo">
 		<img src="imgs/logo.png" alt="logo">
@@ -34,47 +36,161 @@
 		<h1>相关<span>荣誉</span> <em>our honor</em></h1>
 	</div>
 
-	<div class="honor-list">
-		<ul>
+<style type="text/css">
+    
+        /* 本例子css */
+        .picScroll-left{ overflow:hidden; position:relative;}
 
-            <li class="honor-item">
-                <div class="fh5co-blog animate-box fadeInUp animated-fast">
-                    <a href="#"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
-                    <div class="blog-text">
-                        <span class="posted_on">2017-06-19</span>
-                        <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-                        <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼</a></h3>
-                        <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+        .picScroll-left .hd{ clear: both; overflow:hidden;  height:30px; padding: 10px 0; 
+        }
 
-                    </div>
-                </div>
-            </li>
-            <li class="honor-item">
-                <div class="fh5co-blog animate-box fadeInUp animated-fast">
-                    <a href="#"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
-                    <div class="blog-text">
-                        <span class="posted_on">2017-06-19</span>
-                        <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-                        <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼</a></h3>
-                        <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
-                    </div>
-                </div>
-            </li>
-            <li class="honor-item">
-                <div class="fh5co-blog animate-box fadeInUp animated-fast">
-                    <a href="#"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
-                    <div class="blog-text">
-                        <span class="posted_on">2017-06-19</span>
-                        <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
-                        <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼</a></h3>
-                        <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+        .picScroll-left .hd .prev,.picScroll-left .hd .next{ display:block;  width:5px; height:9px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+             cursor:pointer;
+            display: none;
 
-                    </div>
-                </div>
-            </li>
-		</ul>
-	</div>
+         }
+        .picScroll-left .hd .next{ background-position:0 -50px;  }
+        .picScroll-left .hd .prevStop{ background-position:-60px 0; }
+        .picScroll-left .hd .nextStop{ background-position:-60px -50px;  }
 
+        .picScroll-left .hd ul{overflow:hidden; zoom:1; margin-top:10px; zoom:1;  text-align: center; }
+
+        .picScroll-left .hd ul li{ display: inline-block;  width:15px; height:15px; overflow:hidden; margin-right:10px; text-indent:-999px; cursor:pointer; background:#cdcdcd; border-radius: 50%; }
+        .picScroll-left .hd ul li.on{ background: #d6bf6e; }
+        .picScroll-left .bd{}
+
+        .picScroll-left .bd ul{overflow:hidden; zoom:1; }
+/*       .picScroll-left .bd ul li{float:left; _display:inline; overflow:hidden; text-align:center;  }
+        .picScroll-left .bd ul li .pic{ text-align:center; }
+        .picScroll-left .bd ul li .pic img{ width:120px; height:90px; display:block;  padding:2px; border:1px solid #ccc; }
+        .picScroll-left .bd ul li .pic a:hover img{ border-color:#999;  }
+        .picScroll-left .bd ul li .title{ line-height:24px;   }*/
+
+
+
+</style>
+
+        <div class="picScroll-left">
+
+            <div class="bd honor-list" >
+                <ul class="picList gallery ">
+                    <li class="honor-item">
+                        <div class="honor-img animate-box fadeInUp animated-fast">
+                            <a class="img" href="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg">
+                                <img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt="">
+                            </a>
+                            <div class="blog-text">
+                                <span class="posted_on">2017-06-19</span>
+                                <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                <h3>唯曼丝袜业隶属于成于成都唯曼1</h3>
+                                <p>解读省第十一次党通运行</p>
+
+                            </div>
+                        </div>
+                    </li>
+                                <li class="honor-item">
+                        <div class="honor-img animate-box fadeInUp animated-fast">
+                            <a href="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
+                            <div class="blog-text">
+                                <span class="posted_on">2017-06-19</span>
+                                <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                <h3>唯曼丝袜业隶属于成于成都唯曼2</h3>
+                                <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="honor-item">
+                        <div class="fh5co-blog animate-box fadeInUp animated-fast">
+                            <a href="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
+                            <div class="blog-text">
+                                <span class="posted_on">2017-06-19</span>
+                                <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼3</a></h3>
+                                <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="honor-item">
+                        <div class="fh5co-blog animate-box fadeInUp animated-fast">
+                            <a href="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
+                            <div class="blog-text">
+                                <span class="posted_on">2017-06-19</span>
+                                <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼4</a></h3>
+                                <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="honor-item">
+                        <div class="fh5co-blog animate-box fadeInUp animated-fast">
+                            <a href="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
+                            <div class="blog-text">
+                                <span class="posted_on">2017-06-19</span>
+                                <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼5</a></h3>
+                                <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="honor-item">
+                        <div class="fh5co-blog animate-box fadeInUp animated-fast">
+                            <a href="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
+                            <div class="blog-text">
+                                <span class="posted_on">2017-06-19</span>
+                                <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼6</a></h3>
+                                <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="honor-item">
+                        <div class="fh5co-blog animate-box fadeInUp animated-fast">
+                            <a href="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
+                            <div class="blog-text">
+                                <span class="posted_on">2017-06-19</span>
+                                <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼7</a></h3>
+                                <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="honor-item">
+                        <div class="fh5co-blog animate-box fadeInUp animated-fast">
+                            <a href="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg"><img class="img-responsive" src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-4.jpg" alt=""></a>
+                            <div class="blog-text">
+                                <span class="posted_on">2017-06-19</span>
+                                <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                <h3><a href="#">唯曼丝袜业隶属于成于成都唯曼8</a></h3>
+                                <p>解读省第十一次党代会精神第四场新闻发布会上，省发展改革委副主任、省铁路机场办专职副主任代永波透露，备受关注的西成客专（西安至成都）将在今年9月30日开通运行</p>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd">
+                <!-- <a class="next"></a> -->
+                <ul></ul>
+                <!-- <a class="prev"></a> -->
+<!--                 <span class="pageState"></span> -->
+            </div>
+        </div>
+       <script type="text/javascript">
+
+
+        $(function(argument) {
+            // body...
+            jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,scroll:1,vis:3,easing:"easeInQuint"});
+        });
+
+        </script>
+        
 </div>
 
 <footer>
@@ -82,19 +198,8 @@
 	<p class="copyright">唯曼丝袜业隶属于成都唯曼丝服饰有限责任公司 copyright ©版权所有</p>
 	<p class="copyright"><a href="" target="_blank">京公网安备11000002000001号</a></p>
 </footer>
-
-<script id="jqbb" src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
-
-<script>
-	/* Demo purposes only */
-    $(".hover").mouseleave(
-        function () {
-            $(this).removeClass("hover");
-        }
-    );
-
-</script>
-
+<link href="css/zoom.css"  rel="stylesheet" type="text/css" >
+<script src="js/zoom.min.js" type="text/javascript"></script>
 
 </body>
 </html>
