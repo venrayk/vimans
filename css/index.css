@@ -226,7 +226,7 @@ a{
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("../imgs/3d-slider-3.jpg");
+  background-image: url("../imgs/3d-slider-1.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: #e99c7e;
@@ -256,7 +256,7 @@ a{
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("../imgs/3d-slider-1.jpg");
+  background-image: url("../imgs/3d-slider-3.jpg");
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: #adc5cd;
