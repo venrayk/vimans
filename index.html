@@ -60,8 +60,9 @@
         </svg>
         <div class="slide__text">
           <h2 class="slide__text-heading">企业简介</h2>
-          <p class="slide__text-desc">成都唯曼丝服饰有限公司，于2016成立于“天府之国”的美丽成都。公司秉承“诚信、创意、高端、简洁、舒适及专业”的理念服务于追求高品质生活人士，让每位消费者足部得到最为健康、舒适的呵护。“天生高贵、为你而生”是我们为您精心雕琢的产品理念！您的完美追求，是我们不断探索品质巅峰的决心</p>
-          <a href="about.html" class="slide__text-link">了解更多</a> </div>
+          <p class="slide__text-desc" id="slide__text-desc" style=" height: 26px; overflow: hidden;word-wrap: break-word; -ms-text-overflow: ellipsis;text-overflow: ellipsis;">成都唯曼丝服饰有限公司
+              ，于2016成立于“天府之国”...</p>
+          <a id="showDettail" class="slide__text-link">了解更多</a> </div>
       </div>
     </div>
 
@@ -73,11 +74,13 @@
         </svg>
         <div class="slide__text">
           <h2 class="slide__text-heading">产品特点</h2>
-          <p class="slide__text-desc">抗菌防臭：有效抑菌，7日免洗，出差必备
-选材上乘：只采用棉中贵族，新疆长绒精梳棉
-品质卓越：精针细纺，手工对目，源于匠心
-环保染色：不易褪色，原生健康，放心穿着</p>
-          <a href="products.html" class="slide__text-link">了解更多</a> </div>
+
+            <p class="slide__text-desc">抗菌防臭：有效抑菌，7日免洗，出差必备</p>
+            <p class="slide__text-desc">选材上乘：只采用棉中贵族，新疆长绒精梳棉</p>
+            <p class="slide__text-desc">品质卓越：精针细纺，手工对目，源于匠心</p>
+            <p class="slide__text-desc">环保染色：不易褪色，原生健康，放心穿着</p>
+
+            <a href="products.html" class="slide__text-link">立即了解</a> </div>
       </div>
     </div>
 
@@ -88,13 +91,14 @@
           <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
         </svg>
         <div class="slide__text">
-          <h2 class="slide__text-heading">企业优势</h2>
-          <p class="slide__text-desc">成熟管理体制、提升运作效率
-丰富商品种类、满足多种需求
-高品质原材料、从最源头把控
-产品整体工艺、紧跟前沿技术
-线上线下营销、发展多类运营</p>
-          <a href="about.html" class="slide__text-link">了解更多</a> </div>
+            <h2 class="slide__text-heading">企业优势</h2>
+            <p class="slide__text-desc">成熟管理体制、提升运作效率</p>
+            <p class="slide__text-desc">丰富商品种类、满足多种需求</p>
+            <p class="slide__text-desc">高品质原材料、从最源头把控</p>
+            <p class="slide__text-desc">产品整体工艺、紧跟前沿技术</p>
+            <p class="slide__text-desc">线上线下营销、发展多类运营</p>
+            <a href="about.html" class="slide__text-link">了解更多</a>
+        </div>
       </div>
     </div>
 
@@ -114,5 +118,15 @@
 </div>
 <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
 <script src="js/index.js"></script>
+    <script>
+        $(function () {
+            $('#showDettail').click(function () {
+                $('#slide__text-desc').html('成都唯曼丝服饰有限公司 ，于2016成立于“天府之国”的美丽成都。公司秉承“诚信、创意、高端、简洁、舒适及专业”的理念服务于追求高品质生活人士，让每位消费者足部得到最为健康、舒适的呵护。“天生高贵、为你而生”是我们为您精心雕琢的产品理念！您的完美追求，是我们不断探索品质巅峰的决心').css({
+                    'height':'auto'
+                });
+            });
+        });
+        
+    </script>
 </body>
 </html>

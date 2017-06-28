@@ -530,13 +530,29 @@ p.text-cn{
     overflow: hidden;
     float: left;
     padding: 20px;
+
 }
 
-.honor-img a.img{
+.honor-img .img{
     display: block;
+    width: 100%;
     height: 260px;
     overflow: hidden;
+    position: relative;
+}
 
+
+
+.honor-img a.img img{
+width: 100%;
+height: auto;
+        position: absolute;
+    text-align: center;
+    left:50%;
+    top: 0;
+    /*-webkit-transform: translate(-50%,-50%);*/
+    /*-ms-transform: translate(-50%,-50%);*/
+    transform: translate(-50%,0%);
 }
 
 
