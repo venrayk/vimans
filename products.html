@@ -24,7 +24,7 @@
     <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
 </head>
 <body class="body-bg">
-<header>
+<header style="position: fixed;">
 
     <nav class="content">
         <div class="logo">
@@ -41,7 +41,7 @@
             </ul>
         </div>
     </nav>
-    <div class="line"></div>
+    <!-- <div class="line"></div> -->
 </header>
 
 
@@ -186,193 +186,145 @@
         line-height: 40px;
         margin-top: 10px;
     }
+    
+    .tab{
+        height: 40px;
+        border:#e1cd79 solid 1px; 
+        width: 500px;
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    
+    .tab a{
+        display: inline-block;
+        width: 33.3%;
+        height: 40px;
+        line-height: 40px;
+        color:  #e1cd79;
+        text-align: center;
+        
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        border-radius: 20px;
+        font-size: 16px;
+            margin-right: -3px;
+    }
+    .tab a.on{
+        background: #e1cd79;
+        color: #fff;
+    }
 
+
+    .viwe2{
+        width: 300px;
+        height: 460px;
+        float: left;
+
+    }
+    .viwe2 a{
+        display: block;
+        width: 280px;
+        height: 440px;
+        margin: 10px;
+        border: #eee solid 1px;
+        overflow: hidden;
+         border-radius: 6px;
+    }
+    .viwe2 a .a-img{
+        display: block;
+        height: 350px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .viwe2 a .a-img img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        text-align: center;
+        left:50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+
+    }
+    .viwe2 a:hover{
+        border-color: #e1cd79;
+    }
+
+    .viwe2 .hover2{
+        height: 80px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .viwe2 .hover2 h2{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: bold;
+        margin:10px;
+        color: #F40;
+        font-weight: 700;
+        font-family: verdana,arial;
+    }
+    .viwe2 .hover2 p{
+        margin-top: 0;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 0;
+        margin:10px;
+        color: #666;
+    }
+    .product-list2{
+        padding-bottom: 40px;
+    }
 </style>
 
-<div class="content">
+<div class="content" style="margin-top: 150px;">
 
-    <div class="company-info-title">
+<!--     <div class="company-info-title">
         <h1>系列<span>产品</span> <em>products</em></h1>
+    </div> -->
+    
+    <div class="tab" id="tab">
+        <a class="on">全部产品</a>
+        <a>精品男袜</a>
+        <a>时尚女袜</a>
     </div>
 
     <div class="product-list2">
 
-        <ul class="main gallery">
-
-            <li class="viwe">
+        <ul class="main gallery" id="list">
+<!--             <li class="viwe2">
                 <a href="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg">
-                    <img src="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg">
-                    <div class="hover">
+                    <div class="a-img"><img src="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"></div>
+                    <div class="hover2">
                         <h2>包芯丝</h2>
                         <p>包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝</p>
                     </div>
                 </a>
             </li>
-            <li class="viwe">
-                <a href="https://gd1.alicdn.com/imgextra/i1/3082753127/TB2WVsQf98mpuFjSZFMXXaxpVXa_!!3082753127.jpg">
-                    <img src="https://gd1.alicdn.com/imgextra/i1/3082753127/TB2WVsQf98mpuFjSZFMXXaxpVXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
-            <li class="viwe">
-                <a href="https://gd4.alicdn.com/imgextra/i1/3082753127/TB2SwxGqbXlpuFjSszfXXcSGXXa_!!3082753127.jpg">
-                    <img src="https://gd4.alicdn.com/imgextra/i1/3082753127/TB2SwxGqbXlpuFjSszfXXcSGXXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
-            <li class="viwe">
-                <a href="https://gd1.alicdn.com/imgextra/i1/3082753127/TB2jCpdaOC9MuFjSZFoXXbUzFXa_!!3082753127.jpg">
-                    <img src="https://gd1.alicdn.com/imgextra/i1/3082753127/TB2jCpdaOC9MuFjSZFoXXbUzFXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>VIMANS唯曼丝塑形压力袜厚款</h2>
-                        <p>VIMANS唯曼丝塑形压力袜厚款</p>
-                    </div>
-                </a>
-            </li>
+ -->
+            
+           
 
-            <li class="viwe">
-                <a href="https://img.alicdn.com/imgextra/i1/3082753127/TB2TlUHf.hnpuFjSZFEXXX0PFXa_!!3082753127.jpg">
-                    <img src="https://img.alicdn.com/imgextra/i1/3082753127/TB2TlUHf.hnpuFjSZFEXXX0PFXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
-            <li class="viwe">
-                <a href="https://img.alicdn.com/imgextra/i2/3082753127/TB2IbkKf4BmpuFjSZFDXXXD8pXa_!!3082753127.jpg">
-                    <img src="https://img.alicdn.com/imgextra/i2/3082753127/TB2IbkKf4BmpuFjSZFDXXXD8pXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
-            <li class="viwe">
-                <a href="https://img.alicdn.com/imgextra/i1/3082753127/TB2paAQf98mpuFjSZFMXXaxpVXa_!!3082753127.jpg">
-                    <img src="https://img.alicdn.com/imgextra/i1/3082753127/TB2paAQf98mpuFjSZFMXXaxpVXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
-            <li class="viwe">
-                <a href="https://img.alicdn.com/imgextra/i2/3082753127/TB2uiAYf4lmpuFjSZPfXXc9iXXa_!!3082753127.jpg">
-                    <img src="https://img.alicdn.com/imgextra/i2/3082753127/TB2uiAYf4lmpuFjSZPfXXc9iXXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
 
-            <li class="viwe">
-                <a href="https://img.alicdn.com/imgextra/i2/3082753127/TB2UhMOf90mpuFjSZPiXXbssVXa_!!3082753127.jpg">
-                    <img src="https://img.alicdn.com/imgextra/i2/3082753127/TB2UhMOf90mpuFjSZPiXXbssVXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
-            <li class="viwe">
-                <a href="https://img.alicdn.com/imgextra/i1/3082753127/TB2H1TcX0hvOuFjSZFBXXcZgFXa_!!3082753127.jpg">
-                    <img src="https://img.alicdn.com/imgextra/i1/3082753127/TB2H1TcX0hvOuFjSZFBXXcZgFXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>防臭纯棉袜</h2>
-                        <p>VIMANS唯曼丝商务休闲中筒按摩款男式袜子防臭纯棉袜</p>
-                    </div>
-                </a>
-            </li>
-            <li class="viwe">
-                <a href="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2iHUqfYBnpuFjSZFGXXX51pXa_!!3082753127.jpg">
-                    <img src="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2iHUqfYBnpuFjSZFGXXX51pXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
-            <li class="viwe">
-                <a href="https://gd3.alicdn.com/imgextra/i3/3082753127/TB2fuoIf5RnpuFjSZFCXXX2DXXa_!!3082753127.jpg">
-                    <img src="https://gd3.alicdn.com/imgextra/i3/3082753127/TB2fuoIf5RnpuFjSZFCXXX2DXXa_!!3082753127.jpg">
-                    <div class="hover">
-                        <h2>短筒侧菱款</h2>
-                        <p>短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款短筒侧菱款</p>
-                    </div>
-                </a>
-            </li>
+            <!--<li class="viwe">-->
+                <!--<a href="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg">-->
+                    <!--<img src="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg">-->
+                    <!--<div class="hover">-->
+                        <!--<h2>包芯丝</h2>-->
+                        <!--<p>包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝</p>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+
 
         </ul>
 
         <div  class="pager"></div>
-
-
-        <div class="btn-prev" title="上一页"></div>
-        <ul style="display: none;">
-            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
-                data-animate-effect="fadeIn">
-                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
-                                 class="img-responsive">
-                    <h3>短筒侧菱款</h3>
-                    <span>主要是大家不甚了解的沿线站点</span>
-                </a>
-            </li>
-
-            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
-                data-animate-effect="fadeIn">
-                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
-                                 class="img-responsive">
-                    <h3>短筒侧菱款</h3>
-                    <span>主要是大家不甚了解的沿线站点</span>
-                </a>
-            </li>
-
-            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
-                data-animate-effect="fadeIn">
-                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
-                                 class="img-responsive">
-                    <h3>短筒侧菱款</h3>
-                    <span>主要是大家不甚了解的沿线站点</span>
-                </a>
-            </li>
-
-            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
-                data-animate-effect="fadeIn">
-                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
-                                 class="img-responsive">
-                    <h3>短筒侧菱款</h3>
-                    <span>主要是大家不甚了解的沿线站点</span>
-                </a>
-            </li>
-
-            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
-                data-animate-effect="fadeIn">
-                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
-                                 class="img-responsive">
-                    <h3>短筒侧菱款</h3>
-                    <span>主要是大家不甚了解的沿线站点</span>
-                </a>
-            </li>
-
-            <li class="col-md-4 col-sm-6 text-center fh5co-project animate-box fadeIn animated-fast"
-                data-animate-effect="fadeIn">
-                <a href="#"><img src="http://www.17sucai.com/preview/2/2017-06-11/moban2141/images/project-1.jpg" alt=""
-                                 class="img-responsive">
-                    <h3>短筒侧菱款</h3>
-                    <span>主要是大家不甚了解的沿线站点</span>
-                </a>
-            </li>
-
-        </ul>
-        <div class="btn-next" title="下一页"></div>
     </div>
 
 </div>
@@ -383,10 +335,122 @@
     <p class="copyright"><a href="" target="_blank">京公网安备11000002000001号</a></p>
 </footer>
 
-<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.js"></script>
 
+
+<script type="text/javascript">
+    $(function() {
+
+
+        getData("全部产品");    
+        
+        $('#tab>a').click(function(index){
+            
+            $(this).addClass('on').siblings('a').removeClass('on');
+
+            var type = $(this).html();
+
+            getData(type);
+
+        });
+
+    });
+
+
+
+
+function getData(type) {
+    jQuery.ajax({
+        type: 'GET',
+        //async:false,
+        url: 'data/products.json',
+        dataType: 'json',
+        success: function(data){
+            var _html='';
+            for(var i=0; i<data.length; i++){
+
+
+
+            +'<li class="viwe2">'
+            +    '<a href="">'
+            +        '<div class="a-img"><img src=""></div>'
+            +        '<div class="hover2">'
+            +           ' <h2></h2>'
+            +            '<p></p>'
+            +        '</div>'
+            +    '</a>'
+            +'</li>'
+
+
+
+
+                if(type=='全部产品'){
+                    // _html+= '<li class="viwe">'
+                    //      +'<a href="'+data[i].bigImgUrl+'">'
+                    //      +   '<img src="'+data[i].thumbnail+'">'
+                    //      +   '<div class="hover">'
+                    //      +       '<h2>'+data[i].name+'</h2>'
+                    //      +      '<p>'+data[i].desc+'</p>'
+                    //      +  ' </div>'
+                    //      +' </a>'
+                    //      +'</li>';
+
+
+
+                        _html+='<li class="viwe2">'
+                        +    '<a href="'+data[i].url+'">'
+                        +        '<div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
+                        +        '<div class="hover2">'
+                        +           ' <h2>'+data[i].name+'</h2>'
+                        +            '<p>'+data[i].desc+'</p>'
+                        +        '</div>'
+                        +    '</a>'
+                        +'</li>'         
+
+
+                }else{
+
+                    if(type==data[i].type){
+
+                        // _html+= '<li class="viwe">'
+                        //          +'<a href="'+data[i].bigImgUrl+'">'
+                        //          +   '<img src="'+data[i].thumbnail+'">'
+                        //          +   '<div class="hover">'
+                        //          +       '<h2>'+data[i].name+'</h2>'
+                        //          +      '<p>'+data[i].desc+'</p>'
+                        //          +  ' </div>'
+                        //          +' </a>'
+                        //          +'</li>';
+
+
+                        _html+='<li class="viwe2">'
+                        +    '<a href="'+data[i].url+'">'
+                        +        '<div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
+                        +        '<div class="hover2">'
+                        +           ' <h2>'+data[i].name+'</h2>'
+                        +            '<p>'+data[i].desc+'</p>'
+                        +        '</div>'
+                        +    '</a>'
+                        +'</li>'    
+
+
+                    }
+                }
+            }
+
+            // console.log("_html",_html);
+
+            $('#list').html(_html);
+        },
+        error: function(err){
+            alert(err);
+        }
+    });
+
+}
+
+</script>
 <link href="css/zoom.css" rel="stylesheet" type="text/css">
 <script src="js/zoom.min.js" type="text/javascript"></script>
-
 </body>
 </html>

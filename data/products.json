@@ -1,29 +1,66 @@
-//产品列表页面
-
 [
-	{
-		"name":"女袜系列",//系列产品名称
-		"list":[
-			{
-				"name":"历届上合组织成员国元首理事会上的中国声音",
-				"type":"包芯丝",
-				"desc":"在16年发展历程中，成员国坚定遵循“上海精神”，扎实推进政治、安全、经济、人文领域合作，在地区和国际事务中发挥建设性作用，树立了合作共赢的新型国际关系典范。",
-				"url":"http://world.people.com.cn/n1/2017/0609/c1002-29329314.html",
-				"other":"其他信息"
-			},
-			{
-				"name":"刘振民担任联合国副秘书长",
-				"type":"船袜",
-				"desc":"他将接替前任副秘书长吴红波继续负责联合国经济和社会事务!",
-				"url":"http://www.baidu.com/",
-				"other":"其他信息"
-			}		
-		]	
-	},
-	{
-		"name":"男袜系列",
-		"list":[
-				
-		]	
-	}
+    {
+        "type": "精品男袜",
+        "name": "短筒侧菱款",
+        "desc": "立了合作共赢的新型国际关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    },
+    {
+        "type": "精品男袜",
+        "name": "短筒侧菱款",
+        "desc": "在1国际事务中发挥建设性作用，树立了合作共赢的新型国际关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    },
+    {
+        "type": "精品男袜",
+        "name": "短筒侧菱款",
+        "desc": "在16年发展历程中，成挥建设性作用，树立了合作共赢的新型国际关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    },
+    {
+        "type": "精品男袜",
+        "name": "短筒侧菱款",
+        "desc": "在16年发展历程中，成员用，树立了合作共赢的新型国际关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    },
+    {
+        "type": "精品男袜",
+        "name": "短筒侧菱款",
+        "desc": "在16年发展历程中，成员国坚合作共赢的新型国际关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "时尚女袜-短筒侧菱款",
+        "desc": "在16年发展历程中新型国际关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "时尚女袜-短筒侧菱款",
+        "desc": "在16年发展历程中，成员国坚关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "时尚女袜-短筒侧菱款",
+        "desc": "在16年的新型国际关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    },
+    {
+
+        "type": "时尚女袜",
+        "name": "时尚女袜-短筒侧菱款",
+        "desc": "在16年发展历国际关系典范。",
+        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
+        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"
+    }
 ]
