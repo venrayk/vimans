@@ -1,9 +1,11 @@
+
 {
   "name": "vimans",
   "version": "1.0.0",
   "main": "gulp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp",
+     
   },
   "repository": {
     "type": "git",
