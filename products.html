@@ -224,25 +224,25 @@
         width: 300px;
         height: 460px;
         float: left;
-
+        
     }
-    .viwe2 a{
+    .viwe2 .goods{
         display: block;
         width: 280px;
         height: 440px;
         margin: 10px;
         border: #eee solid 1px;
         overflow: hidden;
-         border-radius: 6px;
+        border-radius: 6px;
     }
-    .viwe2 a .a-img{
+    .viwe2 a.aImg .a-img{
         display: block;
-        height: 350px;
+        height: 300px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
-    .viwe2 a .a-img img{
+    .viwe2 a.aImg .a-img img{
         width: 100%;
         height: auto;
         position: absolute;
@@ -252,32 +252,33 @@
         -webkit-transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);
         transform: translate(-50%,-50%);
-
     }
     .viwe2 a:hover{
         border-color: #e1cd79;
     }
 
     .viwe2 .hover2{
-        height: 80px;
+        margin-top: 10px;
+
+        height: 70px;
         overflow: hidden;
         width: 100%;
     }
     .viwe2 .hover2 h2{
         font-size: 14px;
-        line-height: 22px;
+        line-height: 14px;
         font-weight: bold;
-        margin:10px;
+        margin:5px 10px;
         color: #F40;
-        font-weight: 700;
+        font-weight: 400;
         font-family: verdana,arial;
     }
     .viwe2 .hover2 p{
         margin-top: 0;
         font-size: 12px;
         line-height: 18px;
-        margin-top: 0;
         margin:10px;
+        margin-top: 0;
         color: #666;
 
 
@@ -285,6 +286,29 @@
     .product-list2{
         padding-bottom: 40px;
     }
+
+    .hover2 span.price{
+        float: right;
+        font-size: 14px;
+
+    }
+
+   .viwe2 .buy{
+        display: inline-block;
+        width: 100px;
+        height: 32px;
+        color: #666;
+        border: #eee solid 1px;
+        border-radius: 0;
+        text-align: center;
+        line-height: 32px;
+        margin-left:10px;
+    }
+    .viwe2 .buy:hover{
+        background: #e1cd79;
+        color: #fff;
+    }
+
 </style>
 
 <div class="content" style="margin-top: 150px;">
@@ -303,15 +327,18 @@
 
         <ul class="main gallery" id="list">
 <!--             <li class="viwe2">
-                <a href="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg">
-                    <div class="a-img"><img src="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"></div>
+                <div class="goods">
+                    <a class="aImg" href="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg">
+                        <div class="a-img"><img src="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"></div>
+                    </a>
                     <div class="hover2">
-                        <h2>包芯丝</h2>
+                        <h2>短筒侧菱款  <span class="price">RMB:29.90</span></h2>
                         <p>包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝</p>
                     </div>
-                </a>
-            </li>
- -->
+                    <a href="" class="buy">立即购买</a>
+                </div>
+            </li> -->
+
             
            
 
@@ -375,20 +402,6 @@ function getData(type) {
             for(var i=0; i<data.length; i++){
 
 
-
-            +'<li class="viwe2">'
-            +    '<a href="">'
-            +        '<div class="a-img"><img src=""></div>'
-            +        '<div class="hover2">'
-            +           ' <h2></h2>'
-            +            '<p></p>'
-            +        '</div>'
-            +    '</a>'
-            +'</li>'
-
-
-
-
                 if(type=='全部产品'){
                     // _html+= '<li class="viwe">'
                     //      +'<a href="'+data[i].bigImgUrl+'">'
@@ -402,15 +415,32 @@ function getData(type) {
 
 
 
-                        _html+='<li class="viwe2">'
-                        +    '<a href="'+data[i].url+'">'
-                        +        '<div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
-                        +        '<div class="hover2">'
-                        +           ' <h2>'+data[i].name+'</h2>'
-                        +            '<p>'+data[i].desc+'</p>'
-                        +        '</div>'
-                        +    '</a>'
-                        +'</li>'         
+                        // _html+='<li class="viwe2">'
+                        // +    '<a href="'+data[i].url+'">'
+                        // +        '<div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
+                        // +        '<div class="hover2">'
+                        // +           ' <h2>'+data[i].name+'</h2>'
+                        // +            '<p>'+data[i].desc+'</p>'
+                        // +        '</div>'
+                        // +    '</a>'
+                        // +'</li>'         
+
+
+                         _html+='<li class="viwe2">'
+                            +'<div class="goods">'
+                            +    '<a class="aImg" href="'+data[i].bigImgUrl+'">'
+                            +       ' <div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
+                            +    '</a>'
+                            +    '<div class="hover2">'
+                            +        '<h2>'+data[i].name+'  <span class="price">RMB:'+data[i].price+'</span></h2>'
+                            +        '<p>'+data[i].desc+'</p>'
+                            +    '</div>'
+                            +    '<a href="'+data[i].url+'" class="buy">立即购买</a>'
+                            +'</div>'
+                            +'</li>'
+
+
+
 
 
                 }else{
@@ -428,15 +458,31 @@ function getData(type) {
                         //          +'</li>';
 
 
+                        // _html+='<li class="viwe2">'
+                        // +    '<a href="'+data[i].url+'">'
+                        // +        '<div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
+                        // +        '<div class="hover2">'
+                        // +           ' <h2>'+data[i].name+'</h2>'
+                        // +            '<p>'+data[i].desc+'</p>'
+                        // +        '</div>'
+                        // +    '</a>'
+                        // +'</li>'    
+
+
+
                         _html+='<li class="viwe2">'
-                        +    '<a href="'+data[i].url+'">'
-                        +        '<div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
-                        +        '<div class="hover2">'
-                        +           ' <h2>'+data[i].name+'</h2>'
-                        +            '<p>'+data[i].desc+'</p>'
-                        +        '</div>'
-                        +    '</a>'
-                        +'</li>'    
+                            +'<div class="goods">'
+                            +    '<a class="aImg" href="'+data[i].bigImgUrl+'">'
+                            +       ' <div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
+                            +    '</a>'
+                            +    '<div class="hover2">'
+                            +        '<h2>'+data[i].name+'  <span class="price">RMB:'+data[i].price+'</span></h2>'
+                            +        '<p>'+data[i].desc+'</p>'
+                            +    '</div>'
+                            +    '<a href="'+data[i].url+'" class="buy">立即购买</a>'
+                            +'</div>'
+                            +'</li>'
+
 
 
                     }
