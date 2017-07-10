@@ -1,75 +1,118 @@
 
 [
     {
+        "type": "时尚女袜",
+        "name": "包芯丝丝袜",
+        "desc": "",
+        "bigImgUrl": "data/products/female/1.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"16.00/双"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "女士四季防臭短筒简约款",
+        "desc": "",
+        "bigImgUrl": "data/products/female/2.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"138.00/盒(6双)"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "女士四季防臭中筒简约款",
+        "desc": "",
+        "bigImgUrl": "data/products/female/3.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"138.00/盒(6双)"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "女士休闲防臭运动袜",
+        "desc": "",
+        "bigImgUrl": "data/products/female/4.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"138.00/盒(6双)"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "塑性压力裤",
+        "desc": "",
+        "bigImgUrl": "data/products/female/5.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"68.00/盒(2双)"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "塑性压力裤厚款",
+        "desc": "",
+        "bigImgUrl": "data/products/female/6.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"48.00/盒(1双)"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "天鹅绒丝袜",
+        "desc": "",
+        "bigImgUrl": "data/products/female/7.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"16.00/双"
+    },
+
+
+
+    {
         "type": "精品男袜",
-        "name": "包芯丝",
-        "desc": "包芯丝-抓死的金卡金卡啊数据库的好摩萨德和",
-        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i4/3082753127/TB2OCX0qbBkpuFjy1zkXXbSpFXa_!!3082753127.jpg",
-        "url": "https://gd4.alicdn.com/imgextra/i4/3082753127/TB2OCX0qbBkpuFjy1zkXXbSpFXa_!!3082753127.jpg",
-        "price":"12.6"
-    },
-    {
-        "type": "时尚女袜",
-        "name": "船袜",
-        "desc": "船袜-抓死的金卡金卡啊数据库的好摩萨德和",
-        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i4/3082753127/TB2jZoFf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
-        "url": "https://gd4.alicdn.com/imgextra/i4/3082753127/TB2jZoFf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
-        "price":"88.9"
+        "name": "防臭商务休闲短筒侧菱款",
+        "desc": "",
+        "bigImgUrl": "data/products/man/1.png",
+        "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
+        "price":"138/盒(6双)"
     },
     {
         "type": "精品男袜",
-        "name": "短筒侧菱款",
-        "desc": "短筒侧菱款-抓死的金卡短筒侧菱款短筒侧菱款好摩萨德和",
-        "bigImgUrl": "https://gd1.alicdn.com/imgextra/i1/3082753127/TB2SwxGqbXlpuFjSszfXXcSGXXa_!!3082753127.jpg",
-        "url": "https://gd1.alicdn.com/imgextra/i1/3082753127/TB2SwxGqbXlpuFjSszfXXcSGXXa_!!3082753127.jpg",
-        "price":"108.9"
+        "name": "防臭商务休闲短筒方格款",
+        "desc": "",
+        "bigImgUrl": "data/products/man/2.png",
+        "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
+        "price":"138.00/盒(6双)"
     },
     {
         "type": "精品男袜",
-        "name": "短筒方格款",
-        "desc": "短筒方格款-短筒方格款筒侧菱款好摩萨德和",
-        "bigImgUrl": "https://img.alicdn.com/imgextra/i4/3082753127/TB2T6QSs4tmpuFjSZFqXXbHFpXa_!!3082753127.jpg",
-        "url": "https://img.alicdn.com/imgextra/i4/3082753127/TB2T6QSs4tmpuFjSZFqXXbHFpXa_!!3082753127.jpg",
-        "price":"108.9"
+        "name": "防臭商务休闲短筒后菱款",
+        "desc": "",
+        "bigImgUrl": "data/products/man/3.png",
+        "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
+        "price":"138.00/盒(6双)"
     },
     {
         "type": "精品男袜",
-        "name": "短筒后菱",
-        "desc": "短筒后菱-短筒短筒后菱好摩萨德和",
-        "bigImgUrl": "https://img.alicdn.com/imgextra/i3/3082753127/TB2NksSs4tmpuFjSZFqXXbHFpXa_!!3082753127.jpg",
-        "url": "https://img.alicdn.com/imgextra/i3/3082753127/TB2NksSs4tmpuFjSZFqXXbHFpXa_!!3082753127.jpg",
-        "price":"9.9"
+        "name": "抗菌防臭短筒运动款",
+        "desc": "",
+        "bigImgUrl": "data/products/man/4.png",
+        "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
+        "price":"138.00/盒(6双)"
     },
     {
-        "type": "时尚女袜",
-        "name": "短筒运动款",
-        "desc": "短筒运动款-短筒短短筒运动款和",
-        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
-        "url": "https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg",
-        "price":"128.00"
+        "type": "精品男袜",
+        "name": "抗菌防臭休闲中筒简约款",
+        "desc": "",
+        "bigImgUrl": "data/products/man/5.png",
+        "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
+        "price":"138.00/盒(5双)"
     },
     {
-        "type": "时尚女袜",
-        "name": "天鹅绒",
-        "desc": "天鹅绒-短筒短短筒运动款和",
-        "bigImgUrl": "https://gd3.alicdn.com/imgextra/i1/3082753127/TB2AeH4vgxlpuFjSszgXXcJdpXa_!!3082753127.jpg",
-        "url": "https://gd3.alicdn.com/imgextra/i1/3082753127/TB2AeH4vgxlpuFjSszgXXcJdpXa_!!3082753127.jpg",
-        "price":"66.00"
+        "type": "精品男袜",
+        "name": "男士豪华单包装",
+        "desc": "",
+        "bigImgUrl": "data/products/man/6.png",
+        "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
+        "price":"25.00/双"
     },
     {
-        "type": "时尚女袜",
-        "name": "压力裤",
-        "desc": "压力裤-短筒短压力裤运动款和",
-        "bigImgUrl": "https://gd4.alicdn.com/imgextra/i4/3082753127/TB2MmpdaOC9MuFjSZFoXXbUzFXa_!!3082753127.jpg",
-        "url": "https://gd4.alicdn.com/imgextra/i4/3082753127/TB2MmpdaOC9MuFjSZFoXXbUzFXa_!!3082753127.jpg",
-        "price":"88.80"
-    },
-    {
-        "type": "时尚女袜",
-        "name": "中筒简约款",
-        "desc": "中筒简约款-短筒短短筒运动款和",
-        "bigImgUrl": "https://img.alicdn.com/imgextra/i2/3082753127/TB2H4sIf.dnpuFjSZPhXXbChpXa_!!3082753127.jpg",
-        "url": "https://img.alicdn.com/imgextra/i2/3082753127/TB2H4sIf.dnpuFjSZPhXXbChpXa_!!3082753127.jpg",
-        "price":"139.00"
+        "type": "精品男袜",
+        "name": "夏季抗菌防臭船袜",
+        "desc": "",
+        "bigImgUrl": "data/products/man/7.png",
+        "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
+        "price":"138.00/盒(6双)"
     }
 ]
