@@ -16,30 +16,7 @@
         "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
         "price":"138.00/盒(6双)"
     },
-    {
-        "type": "时尚女袜",
-        "name": "女士四季防臭中筒简约款",
-        "desc": "",
-        "bigImgUrl": "data/products/female/3.png",
-        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
-        "price":"138.00/盒(6双)"
-    },
-    {
-        "type": "时尚女袜",
-        "name": "女士休闲防臭运动袜",
-        "desc": "",
-        "bigImgUrl": "data/products/female/4.png",
-        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
-        "price":"138.00/盒(6双)"
-    },
-    {
-        "type": "时尚女袜",
-        "name": "塑性压力裤",
-        "desc": "",
-        "bigImgUrl": "data/products/female/5.png",
-        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
-        "price":"68.00/盒(2双)"
-    },
+
     {
         "type": "时尚女袜",
         "name": "塑性压力裤厚款",
@@ -56,9 +33,6 @@
         "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
         "price":"16.00/双"
     },
-
-
-
     {
         "type": "精品男袜",
         "name": "防臭商务休闲短筒侧菱款",
@@ -67,12 +41,35 @@
         "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
         "price":"138/盒(6双)"
     },
+   
     {
+        "type": "时尚女袜",
+        "name": "女士休闲防臭运动袜",
+        "desc": "",
+        "bigImgUrl": "data/products/female/4.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"138.00/盒(6双)"
+    },
+    {
+        "type": "时尚女袜",
+        "name": "塑性压力裤",
+        "desc": "",
+        "bigImgUrl": "data/products/female/5.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
+        "price":"68.00/盒(2双)"
+    }, {
         "type": "精品男袜",
         "name": "防臭商务休闲短筒方格款",
         "desc": "",
         "bigImgUrl": "data/products/man/2.png",
         "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
+        "price":"138.00/盒(6双)"
+    },    {
+        "type": "时尚女袜",
+        "name": "女士四季防臭中筒简约款",
+        "desc": "",
+        "bigImgUrl": "data/products/female/3.png",
+        "url": "https://shop291235747.taobao.com/category-1297438023.htm?spm=a1z10.5-c.w5002-15748178931.4.3947e35ekmtLb8&search=y&catName=%BE%AB%C6%B7%C5%AE%CD%E0",
         "price":"138.00/盒(6双)"
     },
     {

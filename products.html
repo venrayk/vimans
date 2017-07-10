@@ -25,6 +25,8 @@
     <link rel="shortcut icon" href="imgs/icon.ico" type="image/x-icon"/> 
     <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+
+
 </head>
 <body class="body-bg">
 <header style="position: fixed;">
@@ -219,52 +221,38 @@
         color: #fff;
     }
 
-
     .viwe2{
         width: 300px;
         height: 460px;
         float: left;
-        
     }
     .viwe2 .goods{
         display: block;
         width: 280px;
-        height: 440px;
+        height: auto;
         margin: 10px;
         border: #eee solid 1px;
         overflow: hidden;
         border-radius: 6px;
     }
-    .viwe2 a.aImg .a-img{
-        display: block;
-        height: 300px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-    .viwe2 a.aImg .a-img img{
+
+    .viwe2 .goods img{
         width: 100%;
         height: auto;
-        position: absolute;
-        text-align: center;
-        left:50%;
-        top: 50%;
-        -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-        transform: translate(-50%,-50%);
-    }
-    .viwe2 a:hover{
-        border-color: #e1cd79;
     }
 
-    .viwe2 .hover2{
+    .viwe2 a:hover{
+        /*border-color: #e1cd79;*/
+    }
+
+   .hover2{
         margin-top: 10px;
 
         height: 70px;
         overflow: hidden;
         width: 100%;
     }
-    .viwe2 .hover2 h2{
+    .hover2 h2{
         font-size: 14px;
         line-height: 14px;
         font-weight: bold;
@@ -273,27 +261,31 @@
         font-weight: 400;
         font-family: verdana,arial;
     }
-    .viwe2 .hover2 p{
+    .hover2 p{
         margin-top: 0;
         font-size: 12px;
-        line-height: 18px;
+        line-height: 32px;
         margin:10px;
         margin-top: 0;
         color: #666;
-
-
     }
+
+    .hover2 p a{
+        float: right;
+    }
+
     .product-list2{
         padding-bottom: 40px;
     }
 
     .hover2 span.price{
-        float: right;
+        float: left;
         font-size: 14px;
+        margin-top: 8px;
 
     }
 
-   .viwe2 .buy{
+   .buy{
         display: inline-block;
         width: 100px;
         height: 32px;
@@ -304,13 +296,49 @@
         line-height: 32px;
         margin-left:10px;
     }
-    .viwe2 .buy:hover{
+    .buy:hover{
         background: #e1cd79;
         color: #fff;
     }
 
 </style>
 
+    <style type="text/css">
+
+        #gallery-wrapper {
+            position: relative;
+            width: 100%;
+            margin:50px auto;
+        }
+
+        img.thumb {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .white-panel {
+            position: absolute;
+            background: white;
+            border-radius: 5px;
+            border:#eee solid 1px;
+
+/*            box-shadow: 0px 1px 2px rgba(0,0,0,0.3);*/
+        }
+        .white-panel h1 {
+            font-size: 1em;
+        }
+        .white-panel h1 a {
+            color: #A92733;
+        }
+        .white-panel:hover {
+            box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+            margin-top: -5px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+    </style>
 <div class="content" style="margin-top: 150px;">
 
 <!--     <div class="company-info-title">
@@ -323,23 +351,43 @@
         <a>时尚女袜</a>
     </div>
 
-    <div class="product-list2">
+
+    <section id="gallery-wrapper">
+        <article class="white-panel">
+            <img src="data/products/female/1.png" class="thumb">
+            <div class="hover2">
+                <h2>短筒侧菱款  </h2>
+                <p><span class="price">RMB:29.90</span><a href="" class="buy">立即购买</a></p>
+            </div>
+        </article>
+    </section>
+
+
+
+    <div style="display: none;" class="product-list2">
 
         <ul class="main gallery" id="list">
-<!--             <li class="viwe2">
+            <li class="viwe2">
                 <div class="goods">
-                    <a class="aImg" href="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg">
-                        <div class="a-img"><img src="https://gd4.alicdn.com/imgextra/i3/3082753127/TB2sjUDf00opuFjSZFxXXaDNVXa_!!3082753127.jpg"></div>
-                    </a>
+                    <img src="data/products/female/2.png">
                     <div class="hover2">
-                        <h2>短筒侧菱款  <span class="price">RMB:29.90</span></h2>
-                        <p>包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝包芯丝</p>
+                        <h2>短筒侧菱款  </h2>
+                        <p><span class="price">RMB:29.90</span><a href="" class="buy">立即购买</a></p>
                     </div>
-                    <a href="" class="buy">立即购买</a>
+                    
                 </div>
-            </li> -->
+            </li>
 
-            
+            <li class="viwe2">
+                <div class="goods">
+                    <img src="data/products/female/1.png">
+                    <div class="hover2">
+                        <h2>短筒侧菱款  </h2>
+                        <p><span class="price">RMB:29.90</span> <a href="" class="buy">立即购买</a></p>
+                    </div>
+                    
+                </div>
+            </li>
            
 
 
@@ -403,41 +451,32 @@ function getData(type) {
 
 
                 if(type=='全部产品'){
-                    // _html+= '<li class="viwe">'
-                    //      +'<a href="'+data[i].bigImgUrl+'">'
-                    //      +   '<img src="'+data[i].thumbnail+'">'
-                    //      +   '<div class="hover">'
-                    //      +       '<h2>'+data[i].name+'</h2>'
-                    //      +      '<p>'+data[i].desc+'</p>'
-                    //      +  ' </div>'
-                    //      +' </a>'
-                    //      +'</li>';
+     
+
+
+                         // _html+='<li class="viwe2">'
+                         //    +'<div class="goods">'
+                         //    +    '<a class="aImg" href="'+data[i].bigImgUrl+'">'
+                         //    +       ' <div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
+                         //    +    '</a>'
+                         //    +    '<div class="hover2">'
+                         //    +        '<h2>'+data[i].name+'  <span class="price">'+data[i].price+'</span></h2>'
+                         //    +        '<p>'+data[i].desc+'</p>'
+                         //    +    '</div>'
+                         //    +    '<a href="'+data[i].url+'" class="buy" target="_blank">立即购买</a>'
+                         //    +'</div>'
+                         //    +'</li>'
 
 
 
-                        // _html+='<li class="viwe2">'
-                        // +    '<a href="'+data[i].url+'">'
-                        // +        '<div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
-                        // +        '<div class="hover2">'
-                        // +           ' <h2>'+data[i].name+'</h2>'
-                        // +            '<p>'+data[i].desc+'</p>'
-                        // +        '</div>'
-                        // +    '</a>'
-                        // +'</li>'         
 
-
-                         _html+='<li class="viwe2">'
-                            +'<div class="goods">'
-                            +    '<a class="aImg" href="'+data[i].bigImgUrl+'">'
-                            +       ' <div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
-                            +    '</a>'
-                            +    '<div class="hover2">'
-                            +        '<h2>'+data[i].name+'  <span class="price">'+data[i].price+'</span></h2>'
-                            +        '<p>'+data[i].desc+'</p>'
-                            +    '</div>'
-                            +    '<a href="'+data[i].url+'" class="buy" target="_blank">立即购买</a>'
-                            +'</div>'
-                            +'</li>'
+        _html+='<article class="white-panel">'
+            +'<img src="'+data[i].bigImgUrl+'" class="thumb">'
+            +'<div class="hover2">'
+            +    '<h2>'+data[i].name+'</h2>'
+            +    '<p><span class="price">RMB:'+data[i].price+'</span><a href="'+data[i].url+'" target="_blank" class="buy">立即购买</a></p>'
+            +'</div>'
+            +'</article>';
 
 
 
@@ -470,19 +509,27 @@ function getData(type) {
 
 
 
-                        _html+='<li class="viwe2">'
-                            +'<div class="goods">'
-                            +    '<a class="aImg" href="'+data[i].bigImgUrl+'">'
-                            +       ' <div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
-                            +    '</a>'
-                            +    '<div class="hover2">'
-                            +        '<h2>'+data[i].name+'  <span class="price">'+data[i].price+'</span></h2>'
-                            +        '<p>'+data[i].desc+'</p>'
-                            +    '</div>'
-                            +    '<a href="'+data[i].url+'" class="buy" target="_blank">立即购买</a>'
-                            +'</div>'
-                            +'</li>'
+                        // _html+='<li class="viwe2">'
+                        //     +'<div class="goods">'
+                        //     +    '<a class="aImg" href="'+data[i].bigImgUrl+'">'
+                        //     +       ' <div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
+                        //     +    '</a>'
+                        //     +    '<div class="hover2">'
+                        //     +        '<h2>'+data[i].name+'  <span class="price">'+data[i].price+'</span></h2>'
+                        //     +        '<p>'+data[i].desc+'</p>'
+                        //     +    '</div>'
+                        //     +    '<a href="'+data[i].url+'" class="buy" target="_blank">立即购买</a>'
+                        //     +'</div>'
+                        //     +'</li>'
 
+
+        _html+='<article class="white-panel">'
+            +'<img src="'+data[i].bigImgUrl+'" class="thumb">'
+            +'<div class="hover2">'
+            +    '<h2>'+data[i].name+'</h2>'
+            +    '<p><span class="price">RMB:'+data[i].price+'</span><a href="'+data[i].url+'" target="_blank" class="buy">立即购买</a></p>'
+            +'</div>'
+            +'</article>';
 
 
                     }
@@ -491,7 +538,7 @@ function getData(type) {
 
             // console.log("_html",_html);
 
-            $('#list').html(_html);
+            $('#gallery-wrapper').html(_html);
         },
         error: function(err){
             alert(err);
@@ -501,7 +548,22 @@ function getData(type) {
 }
 
 </script>
-<link href="css/zoom.css" rel="stylesheet" type="text/css">
-<script src="js/zoom.min.js" type="text/javascript"></script>
+
+
+<script src="main/js/jquery-1.12.0.min.js"></script>
+<script src="grid/js/pinterest_grid.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#gallery-wrapper").pinterest_grid({
+            no_columns: 4,
+            padding_x: 20,
+            padding_y: 20,
+            margin_bottom: 50,
+            single_column_breakpoint: 700
+        });
+        
+    });
+</script>
+
 </body>
 </html>
