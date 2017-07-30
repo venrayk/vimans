@@ -525,7 +525,8 @@ p.text-cn{
 }
 
 .honor-item{
-    width: 360px;
+    /*width: 360px;*/
+    width: 358px;
     height: auto;
     overflow: hidden;
     float: left;
