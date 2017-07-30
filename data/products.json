@@ -1,7 +1,6 @@
-
 [
-    {
-        "type": "时尚女袜",
+    { 
+        "type": "女士丝袜",
         "name": "包芯丝丝袜",
         "desc": "",
         "bigImgUrl": "data/products/female/1.png",
@@ -9,7 +8,7 @@
         "price":"16.00/双"
     },
     {
-        "type": "时尚女袜",
+        "type": "女士棉袜",
         "name": "女士四季防臭短筒简约款",
         "desc": "",
         "bigImgUrl": "data/products/female/2.png",
@@ -18,7 +17,7 @@
     },
 
     {
-        "type": "时尚女袜",
+        "type": "女士丝袜",
         "name": "塑性压力裤厚款",
         "desc": "",
         "bigImgUrl": "data/products/female/6.png",
@@ -26,7 +25,7 @@
         "price":"48.00/盒(1双)"
     },
     {
-        "type": "时尚女袜",
+        "type": "女士丝袜",
         "name": "天鹅绒丝袜",
         "desc": "",
         "bigImgUrl": "data/products/female/7.png",
@@ -43,7 +42,7 @@
     },
    
     {
-        "type": "时尚女袜",
+        "type": "女士棉袜",
         "name": "女士休闲防臭运动袜",
         "desc": "",
         "bigImgUrl": "data/products/female/4.png",
@@ -51,7 +50,7 @@
         "price":"138.00/盒(6双)"
     },
     {
-        "type": "时尚女袜",
+        "type": "女士丝袜",
         "name": "塑性压力裤",
         "desc": "",
         "bigImgUrl": "data/products/female/5.png",
@@ -65,7 +64,7 @@
         "url": "https://shop291235747.taobao.com/category-1297438022.htm?spm=a1z10.5-c.w5002-15748178931.3.3e05f09dUPuiy3&search=y&catName=%BE%AB%C6%B7%C4%D0%CD%E0",
         "price":"138.00/盒(6双)"
     },    {
-        "type": "时尚女袜",
+        "type": "女士棉袜",
         "name": "女士四季防臭中筒简约款",
         "desc": "",
         "bigImgUrl": "data/products/female/3.png",

@@ -344,11 +344,12 @@
 <!--     <div class="company-info-title">
         <h1>系列<span>产品</span> <em>products</em></h1>
     </div> -->
-    
+
     <div class="tab" id="tab">
-        <a class="on">全部产品</a>
-        <a>精品男袜</a>
-        <a>时尚女袜</a>
+        
+        <a class="on">精品男袜</a>
+        <a>女士棉袜</a>
+        <a>女士丝袜</a>
     </div>
 
 
@@ -367,7 +368,7 @@
     <div style="display: none;" class="product-list2">
 
         <ul class="main gallery" id="list">
-            <li class="viwe2">
+<!--             <li class="viwe2">
                 <div class="goods">
                     <img src="data/products/female/2.png">
                     <div class="hover2">
@@ -387,7 +388,7 @@
                     </div>
                     
                 </div>
-            </li>
+            </li> -->
            
 
 
@@ -412,7 +413,7 @@
 <footer>
     <div class="line"></div>
     <p class="copyright">成都唯曼丝服饰有限责任公司 copyright ©版权所有</p>
-    <p class="copyright"><a href="" target="_blank">京公网安备11000002000001号</a></p>
+    <p class="copyright"><a href="" target="_blank">蜀ICP备17023763号</a></p>
 </footer>
 
 <script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.js"></script>
@@ -420,9 +421,7 @@
 
 <script type="text/javascript">
     $(function() {
-
-
-        getData("全部产品");    
+        getData("精品男袜");    
         
         $('#tab>a').click(function(index){
             
@@ -450,93 +449,32 @@ function getData(type) {
             for(var i=0; i<data.length; i++){
 
 
-                if(type=='全部产品'){
-     
+                // if(type=='全部产品'){
+    
+                //     _html+='<article class="white-panel">'
+                //         +'<img src="'+data[i].bigImgUrl+'" class="thumb">'
+                //         +'<div class="hover2">'
+                //         +    '<h2>'+data[i].name+'</h2>'
+                //         +    '<p><span class="price">RMB:'+data[i].price+'</span><a href="'+data[i].url+'" target="_blank" class="buy">立即购买</a></p>'
+                //         +'</div>'
+                //         +'</article>';
 
-
-                         // _html+='<li class="viwe2">'
-                         //    +'<div class="goods">'
-                         //    +    '<a class="aImg" href="'+data[i].bigImgUrl+'">'
-                         //    +       ' <div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
-                         //    +    '</a>'
-                         //    +    '<div class="hover2">'
-                         //    +        '<h2>'+data[i].name+'  <span class="price">'+data[i].price+'</span></h2>'
-                         //    +        '<p>'+data[i].desc+'</p>'
-                         //    +    '</div>'
-                         //    +    '<a href="'+data[i].url+'" class="buy" target="_blank">立即购买</a>'
-                         //    +'</div>'
-                         //    +'</li>'
-
-
-
-
-        _html+='<article class="white-panel">'
-            +'<img src="'+data[i].bigImgUrl+'" class="thumb">'
-            +'<div class="hover2">'
-            +    '<h2>'+data[i].name+'</h2>'
-            +    '<p><span class="price">RMB:'+data[i].price+'</span><a href="'+data[i].url+'" target="_blank" class="buy">立即购买</a></p>'
-            +'</div>'
-            +'</article>';
-
-
-
-
-
-                }else{
+                // }else{
 
                     if(type==data[i].type){
 
-                        // _html+= '<li class="viwe">'
-                        //          +'<a href="'+data[i].bigImgUrl+'">'
-                        //          +   '<img src="'+data[i].thumbnail+'">'
-                        //          +   '<div class="hover">'
-                        //          +       '<h2>'+data[i].name+'</h2>'
-                        //          +      '<p>'+data[i].desc+'</p>'
-                        //          +  ' </div>'
-                        //          +' </a>'
-                        //          +'</li>';
-
-
-                        // _html+='<li class="viwe2">'
-                        // +    '<a href="'+data[i].url+'">'
-                        // +        '<div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
-                        // +        '<div class="hover2">'
-                        // +           ' <h2>'+data[i].name+'</h2>'
-                        // +            '<p>'+data[i].desc+'</p>'
-                        // +        '</div>'
-                        // +    '</a>'
-                        // +'</li>'    
-
-
-
-                        // _html+='<li class="viwe2">'
-                        //     +'<div class="goods">'
-                        //     +    '<a class="aImg" href="'+data[i].bigImgUrl+'">'
-                        //     +       ' <div class="a-img"><img src="'+data[i].bigImgUrl+'"></div>'
-                        //     +    '</a>'
-                        //     +    '<div class="hover2">'
-                        //     +        '<h2>'+data[i].name+'  <span class="price">'+data[i].price+'</span></h2>'
-                        //     +        '<p>'+data[i].desc+'</p>'
-                        //     +    '</div>'
-                        //     +    '<a href="'+data[i].url+'" class="buy" target="_blank">立即购买</a>'
-                        //     +'</div>'
-                        //     +'</li>'
-
-
-        _html+='<article class="white-panel">'
-            +'<img src="'+data[i].bigImgUrl+'" class="thumb">'
-            +'<div class="hover2">'
-            +    '<h2>'+data[i].name+'</h2>'
-            +    '<p><span class="price">RMB:'+data[i].price+'</span><a href="'+data[i].url+'" target="_blank" class="buy">立即购买</a></p>'
-            +'</div>'
-            +'</article>';
+                        _html+='<article class="white-panel">'
+                            +'<img src="'+data[i].bigImgUrl+'" class="thumb">'
+                            +'<div class="hover2">'
+                            +    '<h2>'+data[i].name+'</h2>'
+                            +    '<p><span class="price">RMB:'+data[i].price+'</span><a href="'+data[i].url+'" target="_blank" class="buy">立即购买</a></p>'
+                            +'</div>'
+                            +'</article>';
 
 
                     }
                 }
-            }
-
-            // console.log("_html",_html);
+            // }
 
             $('#gallery-wrapper').html(_html);
         },
