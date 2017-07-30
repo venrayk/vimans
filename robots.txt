@@ -1,0 +1,7 @@
+User-agent: * 
+Disallow: /index.html
+Disallow: /honor.html
+Disallow: /products.html
+Disallow: /contact.html
+Disallow: /about.html
+
