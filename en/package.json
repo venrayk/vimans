@@ -1,0 +1,25 @@
+
+{
+  "name": "vimans",
+  "version": "1.0.0",
+  "main": "gulp.js",
+  "scripts": {
+    "gulp": "gulp",
+     
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venrayk/vimans.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venrayk/vimans/issues"
+  },
+  "homepage": "https://github.com/venrayk/vimans#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}

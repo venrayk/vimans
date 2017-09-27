@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="唯曼丝商务防臭袜,vimans,
+	休闲防臭袜,唯曼丝休闲防臭棉袜,高档防臭袜,高档纯棉袜,丝袜,唯曼丝袜业,
+	吸汗透气棉袜,品牌棉袜排行榜,夏季袜子,四季袜子,秋冬加厚袜子,唯曼丝高档棉袜,
+	男士高档棉袜子,女士高档棉袜子,女士打底裤连裤袜,塑身塑形袜">
+	<meta name="description" content="成都唯曼丝服饰有限责任公司，
+	于2016年在享誉世界有“天府之国”之称的美丽成都成立。
+	公司秉承“诚信、创新、高端、简洁、舒适及专业”的产品服务于各类商务及追求高品质生活人士为宗旨，
+	精心把关产品的一点一滴。从产品原材料棉花选购到纺纱、固色漂染、工艺织造以及产品定型，均为专业人员全程精心把控，
+	并取了ISO9001：2015质量体系认证和国家科标检测研究院检测报告（证书号：SCT-C20170220-002S）。
+	我们深信采用新疆阿克苏 60%131A和40%137A混合精梳棉，
+	经过先进的涡流纺纱和采用美国杜邦的包覆莱卡以及无任何化学品添加而打造的精品,
+	一定会让每位消费者足部得到最为环保、舒适以及自然呼吸的呵护。
+	“天生高贵、为你而生”是我们为你精心雕琢产品的理念！
+	你的完美追求，是我们不断探索品质巅峰的决心。
+	“千里之行，始于足下”唯曼丝为你助“足”陪伴！">
+	<meta name="robots" content="all">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit|ie-comp|ie-stand" />  
+	<link rel="icon" href="imgs/icon.ico" type="image/x-icon"/> 
+	<link rel="shortcut icon" href="imgs/icon.ico" type="image/x-icon"/> 
+	<title>成都唯曼丝服饰有限责任公司-Contract</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body class="body-bg">
+
+<header>
+	<nav class="content">
+		<div class="logo">
+			<img src="imgs/logo.png" alt="logo">
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="https://shop291235747.taobao.com/index.htm" target="_blank">Online Store</a></li>
+				<li><a href="honor.html">Enterprise Honors</a></li>
+				<li><a class="cur" href="contact.html">Contract</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="line"></div>
+</header>
+
+<div class="content">
+
+	<div class="company-info-title">
+		<h1>联系<span>我们</span> <em>CONTACT US</em></h1>
+	</div>
+
+	<div class="map">
+
+		<!-- 地图容器 -->
+		<div id="allmap"></div>
+
+		<!-- 公司地图信息 -->
+		<div class="company-info" id="companyInfo">
+			<div class="company-info-content">
+
+
+				<div class="company-info-title">
+					<h1><span>联系方式</span> <em>CONTACT US</em></h1>
+				</div>
+				<p class="text-en" style="margin-top: 5px; font-size: 10px;">V I M A N S </p>
+
+
+				<p class="text-tel">028-83297828/ 61932437/ 61932427(6线)</p>
+
+				<p class="text-en">传真</p>
+				<p class="text-cn">028-6193 2647转601分机</p>
+
+				<p class="text-en">公司地址</p>
+				<p class="text-cn">成都市温江区光华大道三段天来国际中心27楼 2705室</p>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+<footer>
+	<div class="line"></div>
+	<p class="copyright">成都唯曼丝服饰有限责任公司 copyright ©版权所有</p>
+	<p class="copyright"><a href="" target="_blank">蜀ICP备17023763号</a></p>
+</footer>
+
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=EAe426e195be054820bdbfcb9bd9648c"></script>
+	<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");
+	var point = new BMap.Point(103.87854,30.685695);
+	var marker = new BMap.Marker(point);  // 创建标注
+	// map.addOverlay(marker);              // 将标注添加到地图中
+	map.centerAndZoom(point, 15);
+
+	//创建小狐狸
+	var pt = new BMap.Point(103.87854,30.685695);
+	var myIcon = new BMap.Icon("http://www.easyicon.net/api/resizeApi.php?id=1113923&size=48", new BMap.Size(50,100));
+
+	var marker2 = new BMap.Marker(pt,{icon:myIcon});  // 创建标注
+
+	map.addOverlay(marker2);              // 将标注添加到地图中
+	marker2.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+
+	var showCompanyInfo=function() {
+		document.getElementById('companyInfo').style.display='block' ;
+	}
+
+	var hideCompanyInfo=function() {
+		document.getElementById('companyInfo').style.display='none' ;
+	}
+
+	// marker2.addEventListener("mouseover", showCompanyInfo);
+	// marker2.addEventListener("click", showCompanyInfo);
+	// marker2.addEventListener("mouseout", hideCompanyInfo);
+</script>
+</body>
+</html>
