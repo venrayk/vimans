@@ -464,8 +464,10 @@ function getData(type) {
 
                     if(type==data[i].type){
 
+                        console.log("data",data[i].id);
+
                         _html+='<article class="white-panel">'
-                            +'<img src="'+data[i].bigImgUrl+'" class="thumb">'
+                            +'<a href="/en/productDetail.html?id='+data[i].id+'"><img src="'+data[i].bigImgUrl+'" class="thumb"></a>'
                             +'<div class="hover2">'
                             +    '<h2>'+data[i].name+'</h2>'
                             +    '<p><span class="price">RMB:'+data[i].price+'</span><a href="'+data[i].url+'" target="_blank" class="buy">立即购买</a></p>'
